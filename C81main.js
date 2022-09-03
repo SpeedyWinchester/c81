@@ -1,0 +1,32 @@
+var canvasel=document.getElementById("canvas")
+var shapes=canvasel.getContext("2d")
+shapes.beginPath()
+shapes.strokeStyle="red"
+shapes.lineWidth=1
+shapes.rect(150,143,430,200);
+shapes.stroke()
+shapes.beginPath()
+shapes.strokeStyle="blue"
+shapes.lineWidth=5
+shapes.arc(250,210,40,0,2*Math.PI);
+shapes.stroke();
+shapes.beginPath()
+shapes.strokeStyle="green"
+shapes.lineWidth=5
+shapes.arc(300,210,40,0,2*Math.PI);
+shapes.stroke();
+shapes.beginPath()
+shapes.strokeStyle="yellow"
+shapes.lineWidth=5
+shapes.arc(350,210,40,0,2*Math.PI);
+shapes.stroke();
+shapes.beginPath()
+shapes.strokeStyle="red"
+shapes.lineWidth=5
+shapes.arc(280,260,40,0,2*Math.PI);
+shapes.stroke();
+shapes.beginPath()
+shapes.strokeStyle="black"
+shapes.lineWidth=5
+shapes.arc(330,260,40,0,2*Math.PI);
+shapes.stroke();
